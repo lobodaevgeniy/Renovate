@@ -103,6 +103,7 @@
 	}
 	.review-text{
 		font-size: 23px;
+		line-height: 35px;
 	}
 	.review-name{
 		font-size: 30px;
@@ -111,7 +112,6 @@
 		width: 10%;
 	}
 	.carousel-caption {
-		top: -10px;
 		left: 10%;
 		right: 10%;
 	}
@@ -153,13 +153,14 @@
 		gap: 50px;
 	}
 	.review-text {
-		line-height: 35px;
+		line-height: 36px;
+		font-size: 22px;
 	}
 	.review-name{
 		font-size: 26px;
 	}
 	.helpful-question{
-		font-size: 23px;
+		display: none;
 	}
 	.section__title {
 		margin-bottom: 35px;
@@ -244,19 +245,26 @@
 		width: 20px;
 		height: 20px;
 	}
-	.helpful-question {
-		font-size: 18px;
-	}
 	.review-text {
 		line-height: 27px;
-		font-size: 18.5px;
+		font-size: 17.5px;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 40px;
+		height: 40px;
+	}	
+	.review-thumbs img {
+		width: 37px;
+		height: 37px;
 	}
 	.review-avatar {
-		width: 80px;
-		height: 80px;
+		width: 60px;
+		height: 60px;
+		margin-bottom: 5px;
 	}
 	.review-name {
 		font-size: 24px;
+		margin-bottom: 0;
 	}
 	.section-advantages__text {
 		font-size: 20px;
@@ -399,6 +407,9 @@
 		font-size: 45px;
 		padding-bottom: 10px;
 	}
+	.carousel-caption {
+		padding: 0;
+	}
 	.section__title {
 		font-size: 42px;
 	}
@@ -425,7 +436,7 @@
 		height: 50px;
 	}
 	.carousel-control-next, .carousel-control-prev {
-    width: 7%;
+		width: 7%;
 	}
 	.review-name {
 		font-size: 20px;
@@ -446,7 +457,7 @@
 		padding: 0 37px;
 	}
 	.section-about, .header-inner, .section-service, .section-contacts {
-		padding-top: 140px;
+		padding-top: 100px;
 	}
 	.section-advantages .container {
 		background-position: 0 top;

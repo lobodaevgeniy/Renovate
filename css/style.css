@@ -164,7 +164,7 @@ header .container{
 }
 .d-block{
 	opacity: 0.15;
-	filter: blur(6px);
+	filter: blur(4px);
 }
 .carousel-inner{
 	border-radius: 40px;
@@ -178,7 +178,7 @@ header .container{
 	background-repeat: no-repeat;
 }
 .carousel-caption{
-	top: 10px;
+	top: 15%;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
 	width: 64px;
@@ -199,8 +199,8 @@ header .container{
 	align-items: center;
 }
 .review-text {
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 31px;
+	line-height: 50px;
 	max-width: 840px;
 }
 .helpful-question{
