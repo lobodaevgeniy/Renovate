@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главная – Renovate</title>
+	<link rel="shortcut icon" href="assets/icons/logo.png" type="image/png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-sticky">
+				<nav class="navbar navbar-expand-lg bg-body-tertiary">
+					<div class="container-fluid">
+						<div class="logo">
+							<img src="assets/icons/logo.png" alt="логотип" class="imgfluid">
+							<p class="logo-text">Renovate</p>
+						</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link colored" aria-current="page" href="index.html">Главная</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="html/about_us.html">О нас</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="html/service.html">Услуги</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="html/contacts.html">Контакты</a>
+						</li>
+						</ul>
+					</div>
+					</div>
+				</nav>
+			</div>
+			<div class="header-inner">
+				<div class="header__title-and-text">
+					<h2 class="header__title">Ремонт компьютеров в Симферополе</h2>
+					<p class="header__text">Позвоните нам и мастер будет у вас в течение 30 минут, проведет экспресс-диагностику и решит проблему с компьютером уже сегодня</p>
+					<form action="html/contacts.html"><button class="button button-gradient">Вызвать мастера</button></form>
+				</div>
+				<div class="header-image">
+					<img src="assets/images/header-image.png" alt="компьютер">
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="section-advantages">
+			<div class="container">
+				<h2 class="section__title">Преимущества нашего сервиса</h2>
+				<div class="section-advantages__advantages">
+					<div class="advantage">
+						<img src="assets/icons/Wrench.png" alt="Гаечный ключ">
+						<p class="section-advantages__text">Наличие современных инструментов и техники для диагностирования неисправности, чтогарантирует точность поставленного диагноза и возможность выполнять даже оченьсложные работы</p>
+					</div>
+					<div class="advantage">
+						<img src="assets/icons/checkmark.png" alt="Галочка">
+						<p class="section-advantages__text">Гарантия на выполненные работы минимум на 12 месяцев при условии, что клиент следуетнашим рекомендациям при пользовании техникой</p>
+					</div>
+					<div class="advantage">
+						<img src="assets/icons/money.png" alt="Деньги">
+						<p class="section-advantages__text">Честные цены без накруток — мы сразу оговариваем стоимость работы и, только если она устраивает заказчика, приступаем к её выполнению</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-review">
+			<div class="container">
+				<h2 class="section__title">Отзывы наших клиентов</h2>
+				<div id="carouselExampleCaptions" class="carousel slide">
+					<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="assets/images/slider1.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-md-block">
+							<div class="avatar-and-name">
+								<img src="assets/icons/avatar1.png" alt="avatar" class="review-avatar">
+								<h5 class="review-name">Николай</h5>
+							</div>
+							<p class="review-text">Обращался в сервис для повышения производительности домашнего компьютера. Поменяли озу и накопитель, почистили от пыли. Комп реально стал работать быстрее. Очень хороший мастер.</p>
+							<p class="helpful-question">Был ли полезен этот отзыв?</p>
+							<div class="review-thumbs">
+								<div class="thumb-up-wrap">
+									<div class="review-thumb-up">
+										<img src="assets/icons/thumbup_empty.png" alt="палец вверх" class="thumb-up">
+									</div>
+								</div>
+								<div class="thumb-down-wrap">
+									<div class="review-thumb-down">
+										<img src="assets/icons/thumbdown_empty.png" alt="палец вниз" class="thumb-down">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slider2.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-md-block">
+							<div class="avatar-and-name">
+								<img src="assets/icons/avatar2.png" alt="avatar" class="review-avatar">
+								<h5 class="review-name">Мария</h5>
+							</div>
+							<p class="review-text">Специалист хорошо выполнил поставленную задачу и ответил на интересующие меня вопросы - объяснил что делает. В результате компьютер действительно стал работать быстрее и не перегревается.</p>
+							<p class="helpful-question">Был ли полезен этот отзыв?</p>
+							<div class="review-thumbs">
+								<div class="thumb-up-wrap">
+									<div class="review-thumb-up">
+										<img src="assets/icons/thumbup_empty.png" alt="палец вверх" class="thumb-up">
+									</div>
+								</div>
+								<div class="thumb-down-wrap">
+									<div class="review-thumb-down">
+										<img src="assets/icons/thumbdown_empty.png" alt="палец вниз" class="thumb-down">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slider3.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-md-block">
+							<div class="avatar-and-name">
+								<img src="assets/icons/avatar3.png" alt="avatar" class="review-avatar">
+								<h5 class="review-name">Александр</h5>
+							</div>
+							<p class="review-text">Почистил компьютер от пыли, помог смонтировать и настроить оперативную память. Подробно все объяснял в процессе. Огромная благодарность за проделанную работу!</p>
+							<p class="helpful-question">Был ли полезен этот отзыв?</p>
+							<div class="review-thumbs">
+								<div class="thumb-up-wrap">
+									<div class="review-thumb-up">
+										<img src="assets/icons/thumbup_empty.png" alt="палец вверх" class="thumb-up">
+									</div>
+								</div>
+								<div class="thumb-down-wrap">
+									<div class="review-thumb-down">
+										<img src="assets/icons/thumbdown_empty.png" alt="палец вниз" class="thumb-down">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/slider4.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-md-block">
+							<div class="avatar-and-name">
+								<img src="assets/icons/avatar4.png" alt="avatar" class="review-avatar">
+								<h5 class="review-name">Дмитрий</h5>
+							</div>
+							<p class="review-text">После включения компьютер сразу отключался. Нашел этот сервис, где-то минут через 40 приехал специалист. Мне быстро всё заменили, и ПК стал работать нормально.</p>
+							<p class="helpful-question">Был ли полезен этот отзыв?</p>
+							<div class="review-thumbs">
+								<div class="thumb-up-wrap">
+									<div class="review-thumb-up">
+										<img src="assets/icons/thumbup_empty.png" alt="палец вверх" class="thumb-up">
+									</div>
+								</div>
+								<div class="thumb-down-wrap">
+									<div class="review-thumb-down">
+										<img src="assets/icons/thumbdown_empty.png" alt="палец вниз" class="thumb-down">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footer__logo-ang-socials">
+				<div class="logo">
+					<img src="assets/icons/logo.png" alt="логотип" class="imgfluid">
+					<p class="logo-text">Renovate</p>
+				</div>
+				<div class="socials">
+					<a href="https://twitter.com/"><img src="assets/icons/tw1.svg" alt="твиттер"></a>
+					<a href="https://www.instagram.com/"><img src="assets/icons/inst1.svg" alt="инстаграм"></a>
+					<a href="https://ru.pinterest.com/"><img src="assets/icons/pinterest1.svg" alt="пинтерест"></a>
+					<a href="https://www.facebook.com/"><img src="assets/icons/fb1.svg" alt="фейсбук"></a>
+				</div>
+			</div>
+			<p class="footer-rights">© 2023 Все права защищены</p>
+		</div>
+	</footer>
+	<script src="js/thumb_up-down.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	
+</body>
+</html>

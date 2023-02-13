@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Контакты – Renovate</title>
+	<link rel="shortcut icon" href="../assets/icons/logo.png" type="image/png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/adaptive.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-sticky">
+				<nav class="navbar navbar-expand-lg bg-body-tertiary">
+					<div class="container-fluid">
+						<div class="logo">
+							<img src="../assets/icons/logo.png" alt="логотип" class="imgfluid">
+							<p class="logo-text">Renovate</p>
+						</div>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link" aria-current="page" href="../index.html">Главная</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../html/about_us.html">О нас</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../html/service.html">Услуги</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link colored" href="../html/contacts.html">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="section-contacts">
+			<div class="container">
+				<h2 class="section__title">Как с нами <span class="colored">связаться?</span></h2>
+				<div class="contacts-inner">
+					<div class="contacts__text">
+						<div class="contacts__text-wrap">
+							<div class="contacts__text-inner">
+								<h3 class="section-contacts__text-title">Наш адрес:</h3>
+								<p class="section-contacts__text">ул. Пушкина 1.</p>
+								<img src="../assets/icons/location.png" alt="метка">
+							</div>
+							<div class="contacts__text-inner">
+								<h3 class="section-contacts__text-title">Время работы:</h3>
+								<p class="section-contacts__text">без выходных с 10.00 — 21.00</p>
+								<img src="../assets/icons/clock.png" alt="время">
+							</div>
+						</div>
+						<div class="contacts__text-wrap">
+							<div class="contacts__text-inner">
+								<h3 class="section-contacts__text-title">E-mail:</h3>
+								<p class="section-contacts__text"><a href="https://www.google.com/intl/ru/gmail/about/" class="contacts-email"> example@gmail.com</a></p>
+								<img src="../assets/icons/email.png" alt="емаил">
+							</div>
+							<div class="contacts__text-inner">
+								<h3 class="section-contacts__text-title">Номер телефона:</h3>
+								<p class="section-contacts__text">+7-978-000-00-00</p>
+								<img src="../assets/icons/phone.png" alt="телефон">
+							</div>
+						</div>
+					</div>
+					<div class="map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/146/simferopol/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Симферополь</a><a href="https://yandex.ru/maps/146/simferopol/house/ulitsa_pushkina_1/Z00YdwdgSUQFQFpufXV0c39jZQ==/?ll=34.100013%2C44.952301&utm_medium=mapframe&utm_source=maps&z=16.83" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Пушкина, 1 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=34.100013%2C44.952301&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDUxOTg2MjYyEmHQoNC%2B0YHRgdC40Y8sINCg0LXRgdC%2F0YPQsdC70LjQutCwINCa0YDRi9C8LCDQodC40LzRhNC10YDQvtC%2F0L7Qu9GMLCDRg9C70LjRhtCwINCf0YPRiNC60LjQvdCwLCAxIgoNa2YIQhUpzzNC&z=16.83" width="600" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+				</div>
+			</div>
+		</section>
+		<section class="section-form">
+			<div class="container">
+				<div class="section-form__form">
+					<h2 class="section__title">Оставьте свою заявку</h2>
+					<form action=".">
+						<div class="form__inputs">
+							<input type="text" placeholder="Введите ваше имя" class="form__input">
+							<input type="tel" placeholder="Введите номер телефона" class="form__input">
+							<textarea name="textarea" id="textarea" cols="30" rows="10" class="form__textarea" placeholder="Опишите вашу проблему"></textarea>
+						</div>
+					</form>
+					<button class="button button-popup">Отправить заявку</button>
+				</div>
+				<div class="popup-bg hidden">
+					<div class="popup">
+						<p class="popup-text">Ваша заявка отправлена</p>
+						<img src="../assets/icons/cross.png" alt="крестик" class="close-popup">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footer__logo-ang-socials">
+				<div class="logo">
+					<img src="../assets/icons/logo.png" alt="логотип" class="imgfluid">
+					<p class="logo-text">Renovate</p>
+				</div>
+				<div class="socials">
+					<a href="https://twitter.com/"><img src="../assets/icons/tw1.svg" alt="твиттер"></a>
+					<a href="https://www.instagram.com/"><img src="../assets/icons/inst1.svg" alt="инстаграм"></a>
+					<a href="https://ru.pinterest.com/"><img src="../assets/icons/pinterest1.svg" alt="пинтерест"></a>
+					<a href="https://www.facebook.com/"><img src="../assets/icons/fb1.svg" alt="фейсбук"></a>
+				</div>
+			</div>
+			<p class="footer-rights">© 2023 Все права защищены</p>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="../js/popup.js"></script>
+</body>
+</html>
