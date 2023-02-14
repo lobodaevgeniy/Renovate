@@ -438,6 +438,9 @@
 	.carousel-control-next, .carousel-control-prev {
 		width: 7%;
 	}
+	.carousel-caption{
+		top: 20px;
+	}
 	.review-name {
 		font-size: 20px;
 	}
